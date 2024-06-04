@@ -1,1 +1,1831 @@
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   5.77482  -1.72068 -0.792452  0.807552 end_state:  7.78073 -3.52831      nan     0.01
+init ctrl: -0.359603  0.671895
+search time: 0.915136 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526931.001875336]: begin to run minco
+s: 1
+corridor time: 5.13318 ms
+try to optimize!
+begin to optimize!
+iter=61,time(ms)=5.148,total_t(ms)=5.149,cost=5201.500
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 3.52125
+pieceNum: 4
+optimized total duration: 3.71015
+optimized jerk cost: 5.24291
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.0033023
+time in building kdtree: 0.00130675
+time in searching in kdtree: 0.000520096
+raycast: 0.006744 ms Time cost in extraction:    0.00582253
+no need to turn around! cur_vel: 0.89966
+no need to turn around! cur_vel: 0.89966
+no need to turn around! cur_vel: 0.89966
+no need to turn around! cur_vel: 0.89966
+no need to turn around! cur_vel: 0.857853
+no need to turn around! cur_vel: 0.857853
+no need to turn around! cur_vel: 0.857853
+no need to turn around! cur_vel: 0.857853
+no need to turn around! cur_vel: 0.808141
+no need to turn around! cur_vel: 0.810074
+no need to turn around! cur_vel: 0.810074
+no need to turn around! cur_vel: 0.810074
+no need to turn around! cur_vel: 0.810074
+no need to turn around! cur_vel: 0.843307
+no need to turn around! cur_vel: 0.843307
+no need to turn around! cur_vel: 0.843307
+no need to turn around! cur_vel: 0.843307
+time in iterating the map: 0.0111271
+time in building kdtree: 0.00354944
+time in searching in kdtree: 0.00680461
+raycast: 0.0066887 ms Time cost in extraction:    0.0236351
+no need to turn around! cur_vel: 0.853698
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.94669 -1.87987 -0.72876 0.833672 end_state:  7.78073 -3.52831      nan     0.01
+init ctrl:   0.332284 -0.0308998
+search time: 0.777248 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526931.292389192]: begin to run minco
+s: 1
+corridor time: 3.80659 ms
+try to optimize!
+begin to optimize!
+iter=93,time(ms)=11.450,total_t(ms)=11.451,cost=5168.784
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 3.32639
+pieceNum: 3
+optimized total duration: 3.39065
+optimized jerk cost: 2.21995
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+[ INFO] [1697526931.352981448]: FreeSapce&Frontier Start 
+[ INFO] [1697526931.353208008]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526931.353439336]: floor_thr: 0.335661, roof_thr: 1.4
+[ INFO] [1697526931.353963272]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526931.354400552]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526931.355280168]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526931.355750728]: floor_thr: 0.335661, roof_thr: 1.4
+[ INFO] [1697526931.356124456]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526931.356587720]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526931.357097320]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526931.357211080]: floor_thr: 0.335661, roof_thr: 1.4
+[ INFO] [1697526931.358888360]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526931.359027208]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526931.361168808]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526931.361523624]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526931.361875400]: fc.viewpoints.size(): 1
+[ WARN] [1697526931.361939688]: v5: 4
+addSuperPoint
+[ WARN] [1697526931.364059720]: frontier_cluster_list size: 3
+[ WARN] [1697526931.364263848]: has viewp, pick it
+[ WARN] [1697526931.364621640]: now sp id: 44, keyinx before change: 25
+[ WARN] [1697526931.364868520]: isVisible? 1
+[ WARN] [1697526931.365150600]: has viewp, pick it
+[ WARN] [1697526931.365424744]: now sp id: 45, keyinx before change: 25
+[ WARN] [1697526931.365794632]: isVisible? 1
+[ WARN] [1697526931.366184040]: svp: 5
+no need to turn around! cur_vel: 0.853322
+no need to turn around! cur_vel: 0.853322
+no need to turn around! cur_vel: 0.923252
+no need to turn around! cur_vel: 0.923252
+no need to turn around! cur_vel: 0.923252
+no need to turn around! cur_vel: 0.923252
+time in iterating the map: 0.00393632
+time in building kdtree: 0.00157334
+time in searching in kdtree: 0.00085104
+raycast: 0.00729309 ms Time cost in extraction:    0.00755187
+no need to turn around! cur_vel: 0.886463
+no need to turn around! cur_vel: 0.886463
+no need to turn around! cur_vel: 0.886463
+no need to turn around! cur_vel: 0.908805
+no need to turn around! cur_vel: 0.924766
+no need to turn around! cur_vel: 0.924766
+no need to turn around! cur_vel: 0.924766
+no need to turn around! cur_vel: 0.924766
+no need to turn around! cur_vel: 0.910517
+no need to turn around! cur_vel: 0.910517
+no need to turn around! cur_vel: 0.910517
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   6.12636  -2.04416 -0.756621  0.954676 end_state:  7.78073 -3.52831      nan     0.01
+init ctrl:  0.488776 -0.134884
+search time: 1.39651 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526931.566374280]: begin to run minco
+s: 1
+corridor time: 5.20294 ms
+try to optimize!
+begin to optimize!
+iter=63,time(ms)=5.621,total_t(ms)=5.623,cost=3149.821
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 3.099
+pieceNum: 3
+optimized total duration: 3.7175
+optimized jerk cost: 2.99926
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00288349
+time in building kdtree: 0.00124566
+time in searching in kdtree: 0.000414624
+raycast: 0.0118654 ms Time cost in extraction:    0.00519677
+no need to turn around! cur_vel: 1.04041
+no need to turn around! cur_vel: 1.04041
+no need to turn around! cur_vel: 1.10645
+no need to turn around! cur_vel: 1.17264
+no need to turn around! cur_vel: 1.17264
+no need to turn around! cur_vel: 1.17264
+no need to turn around! cur_vel: 1.17264
+no need to turn around! cur_vel: 1.16716
+no need to turn around! cur_vel: 1.16716
+no need to turn around! cur_vel: 1.16716
+no need to turn around! cur_vel: 1.16716
+no need to turn around! cur_vel: 1.16716
+no need to turn around! cur_vel: 1.21248
+no need to turn around! cur_vel: 1.21248
+no need to turn around! cur_vel: 1.21248
+no need to turn around! cur_vel: 1.21248
+no need to turn around! cur_vel: 1.21782
+no need to turn around! cur_vel: 1.21782
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+time in iterating the map: 0.0036711
+time in building kdtree: 0.00171318
+time in searching in kdtree: 0.0007968
+raycast: 0.00648832 ms Time cost in extraction:    0.00700675
+start state:   6.32274  -2.23855 -0.807224  0.984212 end_state:  7.78073 -3.52831      nan     0.01
+init ctrl: -0.170093 -0.206432
+search time: 0.594208 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526931.846528584]: begin to run minco
+s: 1
+corridor time: 3.43914 ms
+try to optimize!
+begin to optimize!
+iter=114,time(ms)=7.922,total_t(ms)=7.924,cost=5127.101
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 2.72847
+pieceNum: 3
+optimized total duration: 2.9342
+optimized jerk cost: 1.8159
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 1.13503
+no need to turn around! cur_vel: 1.13503
+no need to turn around! cur_vel: 1.13503
+no need to turn around! cur_vel: 1.07938
+no need to turn around! cur_vel: 1.07938
+no need to turn around! cur_vel: 1.07938
+no need to turn around! cur_vel: 1.07611
+no need to turn around! cur_vel: 1.07611
+no need to turn around! cur_vel: 1.07611
+no need to turn around! cur_vel: 1.07611
+time in iterating the map: 0.00323139
+time in building kdtree: 0.00138067
+time in searching in kdtree: 0.00135178
+raycast: 0.0100165 ms Time cost in extraction:    0.00683568
+no need to turn around! cur_vel: 1.05242
+no need to turn around! cur_vel: 1.05242
+no need to turn around! cur_vel: 1.05242
+no need to turn around! cur_vel: 1.02361
+no need to turn around! cur_vel: 1.02361
+no need to turn around! cur_vel: 1.02361
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   6.50336  -2.43352 -0.830078  0.967713 end_state:  7.78073 -3.52831      nan     0.01
+init ctrl: -0.00466207   0.0114676
+search time: 1.00573 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526932.120082440]: begin to run minco
+s: 1
+corridor time: 4.53674 ms
+try to optimize!
+begin to optimize!
+iter=45,time(ms)=4.722,total_t(ms)=4.723,cost=4835.922
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 2.55031
+pieceNum: 3
+optimized total duration: 2.64823
+optimized jerk cost: 1.36717
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 1.07007
+no need to turn around! cur_vel: 1.07007
+no need to turn around! cur_vel: 1.07007
+no need to turn around! cur_vel: 0.994313
+no need to turn around! cur_vel: 0.994313
+time in iterating the map: 0.00269888
+time in building kdtree: 0.00151555
+time in searching in kdtree: 0.00159437
+raycast: 0.0091777 ms Time cost in extraction:    0.00665952
+no need to turn around! cur_vel: 0.994313
+no need to turn around! cur_vel: 0.959261
+no need to turn around! cur_vel: 0.959261
+no need to turn around! cur_vel: 0.959261
+------------------------run once-----------------------------
+[ INFO] [1697526932.296485800]: [Ftr_Server] State: APPROACH
+[ INFO] [1697526932.304480712]: Approach...
+Dis to Aim: 1.64918
+[ INFO] [1697526932.307428552]:  ALL Done - 3.000021 ms
+no need to turn around! cur_vel: 0.959261
+no need to turn around! cur_vel: 1.03715
+no need to turn around! cur_vel: 1.03715
+no need to turn around! cur_vel: 1.03715
+no need to turn around! cur_vel: 1.03715
+no need to turn around! cur_vel: 1.03715
+no need to turn around! cur_vel: 0.933454
+no need to turn around! cur_vel: 0.933454
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   6.68187  -2.62616 -0.812715  0.975732 end_state:  7.78073 -3.52831      nan     0.01
+init ctrl: 0.0151364  0.104764
+search time: 0.541312 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526932.389946760]: begin to run minco
+s: 1
+corridor time: 2.47331 ms
+try to optimize!
+begin to optimize!
+iter=38,time(ms)=2.337,total_t(ms)=2.338,cost=3461.292
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 2.36618
+pieceNum: 2
+optimized total duration: 2.56352
+optimized jerk cost: 1.18658
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+[ INFO] [1697526932.457639368]: FreeSapce&Frontier Start 
+[ INFO] [1697526932.457810088]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526932.458111048]: floor_thr: 0.432689, roof_thr: 1.4
+[ INFO] [1697526932.458340392]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.458564840]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.459078632]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526932.459136520]: floor_thr: 0.432689, roof_thr: 1.4
+[ INFO] [1697526932.459205800]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.459315400]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.459547400]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526932.459581192]: floor_thr: 0.432689, roof_thr: 1.4
+[ INFO] [1697526932.459644040]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.459694568]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526932.462268936]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526932.462466440]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526932.462612808]: fc.viewpoints.size(): 1
+[ WARN] [1697526932.462650696]: v5: 3
+addSuperPoint
+[ WARN] [1697526932.462883880]: frontier_cluster_list size: 3
+[ WARN] [1697526932.462925960]: has viewp, pick it
+[ WARN] [1697526932.463213768]: now sp id: 44, keyinx before change: 25
+[ WARN] [1697526932.463355400]: isVisible? 1
+[ WARN] [1697526932.463546312]: has viewp, pick it
+[ WARN] [1697526932.463590312]: now sp id: 45, keyinx before change: 25
+[ WARN] [1697526932.463712616]: isVisible? 1
+[ WARN] [1697526932.463919112]: svp: 5
+time in iterating the map: 0.00280618
+time in building kdtree: 0.0011551
+time in searching in kdtree: 0.00102528
+raycast: 0.00558278 ms Time cost in extraction:    0.00566627
+no need to turn around! cur_vel: 0.90714
+no need to turn around! cur_vel: 0.90714
+[ INFO] [1697526932.497677320]: FreeSapce&Frontier Start 
+[ INFO] [1697526932.498125608]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526932.498375144]: floor_thr: 0.452418, roof_thr: 1.4
+[ INFO] [1697526932.498625032]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.498860424]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.499716616]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526932.499971272]: floor_thr: 0.452418, roof_thr: 1.4
+[ INFO] [1697526932.500250952]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.500511016]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.500786632]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526932.500837032]: floor_thr: 0.452418, roof_thr: 1.4
+[ INFO] [1697526932.500914504]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526932.500966280]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526932.503183688]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526932.503306728]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526932.503383432]: fc.viewpoints.size(): 1
+[ WARN] [1697526932.503435176]: v5: 3
+addSuperPoint
+[ WARN] [1697526932.503593384]: frontier_cluster_list size: 3
+[ WARN] [1697526932.503630280]: has viewp, pick it
+[ WARN] [1697526932.503680264]: now sp id: 45, keyinx before change: 25
+[ WARN] [1697526932.503706440]: isVisible? 0
+[ WARN] [1697526932.503748104]: not visible
+[ WARN] [1697526932.503805640]: min dis: 8.6936| ( 9.76986 -2.95272 0.565558 ->  1.84017
+0.590143
+0.948763)
+[ WARN] [1697526932.503835944]: keyinx after change:25
+[ERROR] [1697526932.503911176]: svp ERROR!!!!!!!
+[ WARN] [1697526932.503948712]: has viewp, pick it
+[ WARN] [1697526932.503987560]: now sp id: 46, keyinx before change: 25
+[ WARN] [1697526932.504012680]: isVisible? 1
+[ WARN] [1697526932.504110984]: has viewp, pick it
+[ WARN] [1697526932.504148680]: now sp id: 47, keyinx before change: 25
+[ WARN] [1697526932.504195816]: isVisible? 1
+[ WARN] [1697526932.504248008]: svp: 4
+[ INFO] [1697526932.504777896]: [Ftr_Server] Ftr Change, Replan!
+[Frtr_Server] from APPROACH to CLASSIC
+[ INFO] [1697526932.504844232]:  ALL Done - 0.074148 ms
+no need to turn around! cur_vel: 0.836341
+no need to turn around! cur_vel: 0.836341
+no need to turn around! cur_vel: 0.836341
+no need to turn around! cur_vel: 0.836341
+------------------------run once-----------------------------
+[ INFO] [1697526932.546417352]: [Ftr_Server] State: CLASSIC
+[ INFO] [1697526932.551261768]: Classic Mode Active!
+vmax: 1.1
+res_aimpos:  1.84017 0.590143 0.948763
+res_aimvel:     -1.1 0.744379  0.13662
+classic find:  1.84017 0.590143 0.948763
+pub local aim:  1.84017 0.590143 0.948763
+[Frtr_Server] from CLASSIC to APPROACH
+no need to turn around! cur_vel: 0.73419
+[Tank Planner] Triggered aim mode!
+[ WARN] [1697526932.552132424]: MSG to TF: Quaternion Not Properly Normalized
+[Tank Planner] end_pt:  1.84017 0.590143      nan     0.01
+ turn around triggered! cur_vel: 0.73419
+ turn around triggered! cur_vel: 0.73419
+ turn around triggered! cur_vel: 0.73419
+ turn around triggered! cur_vel: 0.821663
+ turn around triggered! cur_vel: 0.821663
+ turn around triggered! cur_vel: 0.821663
+ turn around triggered! cur_vel: 0.821663
+time in iterating the map: 0.00267648
+time in building kdtree: 0.00113392
+time in searching in kdtree: 0.00113309
+raycast: 0.00523706 ms Time cost in extraction:    0.00570707
+ turn around triggered! cur_vel: 0.803191
+ turn around triggered! cur_vel: 0.803191
+ turn around triggered! cur_vel: 0.803191
+ turn around triggered! cur_vel: 0.803191
+ turn around triggered! cur_vel: 0.723473
+ turn around triggered! cur_vel: 0.723473
+ turn around triggered! cur_vel: 0.723473
+ turn around triggered! cur_vel: 0.723473
+ turn around triggered! cur_vel: 0.65806
+ turn around triggered! cur_vel: 0.65806
+ turn around triggered! cur_vel: 0.65806
+ turn around triggered! cur_vel: 0.65806
+ turn around triggered! cur_vel: 0.65806
+ turn around triggered! cur_vel: 0.691431
+ turn around triggered! cur_vel: 0.691431
+ turn around triggered! cur_vel: 0.691431
+ turn around triggered! cur_vel: 0.691431
+ turn around triggered! cur_vel: 0.691431
+time in iterating the map: 0.0035001
+time in building kdtree: 0.00113965
+time in searching in kdtree: 0.00105104
+raycast: 0.00498323 ms Time cost in extraction:    0.0063728
+ turn around triggered! cur_vel: 0.698783
+ turn around triggered! cur_vel: 0.698783
+ turn around triggered! cur_vel: 0.698783
+ turn around triggered! cur_vel: 0.671108
+ turn around triggered! cur_vel: 0.671108
+ turn around triggered! cur_vel: 0.671108
+ turn around triggered! cur_vel: 0.671108
+ turn around triggered! cur_vel: 0.671108
+ turn around triggered! cur_vel: 0.625809
+ turn around triggered! cur_vel: 0.625809
+ turn around triggered! cur_vel: 0.625809
+ turn around triggered! cur_vel: 0.625809
+ turn around triggered! cur_vel: 0.70936
+ turn around triggered! cur_vel: 0.70936
+ turn around triggered! cur_vel: 0.70936
+ turn around triggered! cur_vel: 0.70936
+ turn around triggered! cur_vel: 0.713804
+ turn around triggered! cur_vel: 0.723204
+ turn around triggered! cur_vel: 0.723204
+time in iterating the map: 0.00337523
+time in building kdtree: 0.00110448
+time in searching in kdtree: 0.00105555
+raycast: 0.00440483 ms Time cost in extraction:    0.0062185
+ turn around triggered! cur_vel: 0.723204
+ turn around triggered! cur_vel: 0.723204
+ turn around triggered! cur_vel: 0.749005
+ turn around triggered! cur_vel: 0.749005
+ turn around triggered! cur_vel: 0.749005
+ turn around triggered! cur_vel: 0.749005
+ turn around triggered! cur_vel: 0.749005
+ turn around triggered! cur_vel: 0.762329
+ turn around triggered! cur_vel: 0.762329
+ turn around triggered! cur_vel: 0.762329
+ turn around triggered! cur_vel: 0.762329
+ turn around triggered! cur_vel: 0.802011
+ turn around triggered! cur_vel: 0.802011
+ turn around triggered! cur_vel: 0.802011
+ turn around triggered! cur_vel: 0.802011
+ turn around triggered! cur_vel: 0.802011
+ turn around triggered! cur_vel: 0.759675
+ turn around triggered! cur_vel: 0.759675
+ turn around triggered! cur_vel: 0.759675
+ turn around triggered! cur_vel: 0.759675
+time in iterating the map: 0.00365024
+time in building kdtree: 0.001152
+time in searching in kdtree: 0.000589024
+raycast: 0.0079359 ms Time cost in extraction:    0.00605587
+ turn around triggered! cur_vel: 0.767975
+ turn around triggered! cur_vel: 0.78195
+ turn around triggered! cur_vel: 0.78195
+ turn around triggered! cur_vel: 0.78195
+ turn around triggered! cur_vel: 0.757195
+ turn around triggered! cur_vel: 0.757195
+ turn around triggered! cur_vel: 0.757195
+ turn around triggered! cur_vel: 0.757195
+ turn around triggered! cur_vel: 0.813369
+ turn around triggered! cur_vel: 0.821142
+ turn around triggered! cur_vel: 0.821142
+ turn around triggered! cur_vel: 0.821142
+ turn around triggered! cur_vel: 0.821142
+ turn around triggered! cur_vel: 0.763727
+ turn around triggered! cur_vel: 0.763727
+ turn around triggered! cur_vel: 0.763727
+ turn around triggered! cur_vel: 0.763727
+ turn around triggered! cur_vel: 0.774171
+time in iterating the map: 0.0033528
+time in building kdtree: 0.00121616
+time in searching in kdtree: 0.00141402
+raycast: 0.00640998 ms Time cost in extraction:    0.00733206
+ turn around triggered! cur_vel: 0.707872
+ turn around triggered! cur_vel: 0.707872
+ turn around triggered! cur_vel: 0.707872
+ turn around triggered! cur_vel: 0.707872
+ turn around triggered! cur_vel: 0.811353
+ turn around triggered! cur_vel: 0.811353
+ turn around triggered! cur_vel: 0.811353
+ turn around triggered! cur_vel: 0.811353
+ turn around triggered! cur_vel: 0.753698
+ turn around triggered! cur_vel: 0.753698
+ turn around triggered! cur_vel: 0.753698
+ turn around triggered! cur_vel: 0.753698
+ turn around triggered! cur_vel: 0.725906
+ turn around triggered! cur_vel: 0.725906
+ turn around triggered! cur_vel: 0.725906
+ turn around triggered! cur_vel: 0.725906
+ turn around triggered! cur_vel: 0.725906
+ turn around triggered! cur_vel: 0.724541
+time in iterating the map: 0.00261846
+time in building kdtree: 0.00198362
+time in searching in kdtree: 0.0008464
+raycast: 0.00425309 ms Time cost in extraction:    0.00622042
+ turn around triggered! cur_vel: 0.724541
+ turn around triggered! cur_vel: 0.724541
+ turn around triggered! cur_vel: 0.632828
+ turn around triggered! cur_vel: 0.632828
+ turn around triggered! cur_vel: 0.632828
+ turn around triggered! cur_vel: 0.632828
+ turn around triggered! cur_vel: 0.631081
+ turn around triggered! cur_vel: 0.612561
+ turn around triggered! cur_vel: 0.612561
+ turn around triggered! cur_vel: 0.612561
+ turn around triggered! cur_vel: 0.612561
+ turn around triggered! cur_vel: 0.5174
+ turn around triggered! cur_vel: 0.5174
+ turn around triggered! cur_vel: 0.5174
+ turn around triggered! cur_vel: 0.5174
+[ INFO] [1697526933.796105960]: FreeSapce&Frontier Start 
+[ INFO] [1697526933.796273512]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526933.796320872]: floor_thr: 0.406687, roof_thr: 1.4
+[ INFO] [1697526933.796367400]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526933.796411816]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526933.796692936]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526933.796721704]: floor_thr: 0.406687, roof_thr: 1.4
+[ INFO] [1697526933.796765896]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526933.796806280]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526933.796973160]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526933.796998216]: floor_thr: 0.406687, roof_thr: 1.4
+[ INFO] [1697526933.797041128]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526933.797081064]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526933.798714088]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526933.798807144]: fc.viewpoints.size(): 1
+[ WARN] [1697526933.798836872]: v5: 5
+addSuperPoint
+[ WARN] [1697526933.801349096]: frontier_cluster_list size: 2
+[ WARN] [1697526933.801414152]: has viewp, pick it
+[ WARN] [1697526933.801445352]: now sp id: 48, keyinx before change: 26
+[ WARN] [1697526933.801492200]: isVisible? 1
+[ WARN] [1697526933.801980904]: svp: 5
+ turn around triggered! cur_vel: 0.568528
+ turn around triggered! cur_vel: 0.568528
+ turn around triggered! cur_vel: 0.568528
+time in iterating the map: 0.00695645
+time in building kdtree: 0.00146048
+time in searching in kdtree: 0.0005408
+raycast: 0.00581434 ms Time cost in extraction:    0.0097536
+ turn around triggered! cur_vel: 0.519772
+------------------------run once-----------------------------
+[ INFO] [1697526933.853862888]: [Ftr_Server] State: APPROACH
+[ INFO] [1697526933.857867528]: Approach...
+Dis to Aim: 6.80837
+[ INFO] [1697526933.857994728]:  ALL Done - 0.175714 ms
+ turn around triggered! cur_vel: 0.556298
+ turn around triggered! cur_vel: 0.556298
+ turn around triggered! cur_vel: 0.556298
+ turn around triggered! cur_vel: 0.490407
+ turn around triggered! cur_vel: 0.490407
+ turn around triggered! cur_vel: 0.490407
+ turn around triggered! cur_vel: 0.490407
+ turn around triggered! cur_vel: 0.537205
+ turn around triggered! cur_vel: 0.537205
+ turn around triggered! cur_vel: 0.537205
+ turn around triggered! cur_vel: 0.537205
+ turn around triggered! cur_vel: 0.537205
+ turn around triggered! cur_vel: 0.490131
+ turn around triggered! cur_vel: 0.490131
+ turn around triggered! cur_vel: 0.490131
+ turn around triggered! cur_vel: 0.490131
+time in iterating the map: 0.00260691
+time in building kdtree: 0.00151712
+time in searching in kdtree: 0.000759264
+raycast: 0.00426912 ms Time cost in extraction:    0.00553056
+ turn around triggered! cur_vel: 0.465954
+ turn around triggered! cur_vel: 0.465954
+ turn around triggered! cur_vel: 0.465954
+ turn around triggered! cur_vel: 0.465954
+ turn around triggered! cur_vel: 0.473169
+ turn around triggered! cur_vel: 0.473169
+ turn around triggered! cur_vel: 0.473169
+ turn around triggered! cur_vel: 0.473169
+ turn around triggered! cur_vel: 0.483558
+ turn around triggered! cur_vel: 0.483558
+ turn around triggered! cur_vel: 0.483558
+ turn around triggered! cur_vel: 0.483558
+ turn around triggered! cur_vel: 0.446443
+ turn around triggered! cur_vel: 0.456855
+ turn around triggered! cur_vel: 0.456855
+ turn around triggered! cur_vel: 0.456855
+ turn around triggered! cur_vel: 0.456855
+ turn around triggered! cur_vel: 0.377484
+ turn around triggered! cur_vel: 0.377484
+ turn around triggered! cur_vel: 0.377484
+ turn around triggered! cur_vel: 0.377484
+time in iterating the map: 0.00260486
+time in building kdtree: 0.00111491
+time in searching in kdtree: 0.000725952
+raycast: 0.00429971 ms Time cost in extraction:    0.00511654
+ turn around triggered! cur_vel: 0.40678
+ turn around triggered! cur_vel: 0.40678
+ turn around triggered! cur_vel: 0.40678
+ turn around triggered! cur_vel: 0.40678
+ turn around triggered! cur_vel: 0.354514
+ turn around triggered! cur_vel: 0.354514
+ turn around triggered! cur_vel: 0.354514
+ turn around triggered! cur_vel: 0.354514
+ turn around triggered! cur_vel: 0.352359
+ turn around triggered! cur_vel: 0.352359
+ turn around triggered! cur_vel: 0.352359
+ turn around triggered! cur_vel: 0.352359
+ turn around triggered! cur_vel: 0.357124
+ turn around triggered! cur_vel: 0.357124
+ turn around triggered! cur_vel: 0.357124
+ turn around triggered! cur_vel: 0.357124
+ turn around triggered! cur_vel: 0.357124
+time in iterating the map: 0.00257738
+time in building kdtree: 0.00108944
+time in searching in kdtree: 0.000591232
+raycast: 0.00422547 ms Time cost in extraction:    0.00506128
+ turn around triggered! cur_vel: 0.357215
+ turn around triggered! cur_vel: 0.357215
+ turn around triggered! cur_vel: 0.357215
+ turn around triggered! cur_vel: 0.357215
+no need to turn around! cur_vel: 0.269955
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:    7.7136  -3.47902 -0.545388  0.194081 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: -0.503105 -0.164052
+search time: 2.17178 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526934.496714632]: begin to run minco
+s: 1
+corridor time: 8.33597 ms
+try to optimize!
+begin to optimize!
+iter=200,time(ms)=32.470,total_t(ms)=32.471,cost=6707.065
+[ WARN] [1697526934.538766760]: Lbfgs: The line-search routine reaches the maximum number of evaluations.
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 6.91443
+pieceNum: 7
+optimized total duration: 15.379
+optimized jerk cost: 1.46077
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+[ INFO] [1697526934.557829800]: to low
+no need to turn around! cur_vel: 0.144213
+no need to turn around! cur_vel: 0.0714383
+no need to turn around! cur_vel: 0.0714383
+no need to turn around! cur_vel: 0.0714383
+no need to turn around! cur_vel: 0.0714383
+no need to turn around! cur_vel: 0.130328
+no need to turn around! cur_vel: 0.130328
+no need to turn around! cur_vel: 0.130328
+no need to turn around! cur_vel: 0.130328
+time in iterating the map: 0.00256291
+time in building kdtree: 0.00129613
+time in searching in kdtree: 0.00278
+raycast: 0.00407133 ms Time cost in extraction:    0.00733987
+no need to turn around! cur_vel: 0.140279
+no need to turn around! cur_vel: 0.140279
+no need to turn around! cur_vel: 0.140279
+no need to turn around! cur_vel: 0.162341
+no need to turn around! cur_vel: 0.162341
+no need to turn around! cur_vel: 0.162341
+no need to turn around! cur_vel: 0.162341
+no need to turn around! cur_vel: 0.162341
+no need to turn around! cur_vel: 0.0834834
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   7.74585  -3.49976 -0.617333 0.0968996 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: -0.235841 -0.420636
+search time: 2.4031 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526934.771513576]: begin to run minco
+s: 1
+corridor time: 10.1272 ms
+try to optimize!
+begin to optimize!
+iter=128,time(ms)=19.145,total_t(ms)=19.146,cost=4087.812
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 7.08372
+pieceNum: 7
+optimized total duration: 7.63368
+optimized jerk cost: 5.24781
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00865862
+time in building kdtree: 0.00133971
+time in searching in kdtree: 0.000572224
+raycast: 0.00697645 ms Time cost in extraction:    0.0112355
+no need to turn around! cur_vel: 0.101816
+[ INFO] [1697526934.857807432]: to mid
+no need to turn around! cur_vel: 0.0994162
+no need to turn around! cur_vel: 0.0994162
+no need to turn around! cur_vel: 0.0706334
+no need to turn around! cur_vel: 0.0706334
+no need to turn around! cur_vel: 0.0706334
+no need to turn around! cur_vel: 0.0706334
+no need to turn around! cur_vel: 0.0804859
+no need to turn around! cur_vel: 0.141016
+no need to turn around! cur_vel: 0.141016
+no need to turn around! cur_vel: 0.141016
+no need to turn around! cur_vel: 0.141016
+no need to turn around! cur_vel: 0.197123
+no need to turn around! cur_vel: 0.197123
+no need to turn around! cur_vel: 0.197123
+no need to turn around! cur_vel: 0.197123
+time in iterating the map: 0.00327917
+time in building kdtree: 0.00132666
+time in searching in kdtree: 0.000723072
+raycast: 0.00410458 ms Time cost in extraction:    0.00614125
+no need to turn around! cur_vel: 0.206741
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:    7.75704   -3.50794     2.5548 0.00700937 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:  0.461551 -0.291308
+search time: 5.21552 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526935.051126888]: begin to run minco
+s: 1
+corridor time: 10.6126 ms
+try to optimize!
+begin to optimize!
+iter=87,time(ms)=10.155,total_t(ms)=10.157,cost=1457.217
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 6.89339
+pieceNum: 7
+optimized total duration: 7.25446
+optimized jerk cost: 0.869809
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 0.191269
+no need to turn around! cur_vel: 0.191269
+no need to turn around! cur_vel: 0.184698
+no need to turn around! cur_vel: 0.184698
+no need to turn around! cur_vel: 0.184698
+no need to turn around! cur_vel: 0.184698
+no need to turn around! cur_vel: 0.184698
+no need to turn around! cur_vel: 0.188937
+no need to turn around! cur_vel: 0.188937
+no need to turn around! cur_vel: 0.188937
+no need to turn around! cur_vel: 0.188937
+time in iterating the map: 0.0084407
+time in building kdtree: 0.00210387
+time in searching in kdtree: 0.0013825
+raycast: 0.00581808 ms Time cost in extraction:    0.014402
+no need to turn around! cur_vel: 0.194348
+no need to turn around! cur_vel: 0.194348
+no need to turn around! cur_vel: 0.201052
+no need to turn around! cur_vel: 0.201052
+no need to turn around! cur_vel: 0.201052
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  7.73031 -3.49012  2.55385 0.182838 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:   0.491183 0.00528262
+search time: 2.6953 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526935.325608232]: begin to run minco
+s: 1
+corridor time: 13.8518 ms
+try to optimize!
+begin to optimize!
+iter=58,time(ms)=14.564,total_t(ms)=14.567,cost=1405.569
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 6.39026
+pieceNum: 6
+optimized total duration: 7.02052
+optimized jerk cost: 1.03145
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+------------------------run once-----------------------------
+[ INFO] [1697526935.389759784]: [Ftr_Server] State: APPROACH
+[ INFO] [1697526935.402688296]: Approach...
+Dis to Aim: 7.14004
+[ INFO] [1697526935.403547656]:  ALL Done - 1.065493 ms
+no need to turn around! cur_vel: 0.154726
+time in iterating the map: 0.0192381
+time in building kdtree: 0.00262042
+time in searching in kdtree: 0.00112099
+raycast: 0.0186272 ms Time cost in extraction:    0.0271388
+no need to turn around! cur_vel: 0.110775
+no need to turn around! cur_vel: 0.148259
+no need to turn around! cur_vel: 0.148259
+no need to turn around! cur_vel: 0.233259
+no need to turn around! cur_vel: 0.233259
+no need to turn around! cur_vel: 0.233259
+no need to turn around! cur_vel: 0.233259
+ turn around triggered! cur_vel: 0.33942
+ turn around triggered! cur_vel: 0.33942
+ turn around triggered! cur_vel: 0.33942
+ turn around triggered! cur_vel: 0.33942
+ turn around triggered! cur_vel: 0.376704
+ turn around triggered! cur_vel: 0.376704
+ turn around triggered! cur_vel: 0.376704
+ turn around triggered! cur_vel: 0.376704
+ turn around triggered! cur_vel: 0.376704
+time in iterating the map: 0.00274435
+time in building kdtree: 0.0013984
+time in searching in kdtree: 0.000869088
+raycast: 0.00615878 ms Time cost in extraction:    0.00578611
+ turn around triggered! cur_vel: 0.346661
+ turn around triggered! cur_vel: 0.346661
+ turn around triggered! cur_vel: 0.346661
+ turn around triggered! cur_vel: 0.346661
+ turn around triggered! cur_vel: 0.402096
+ turn around triggered! cur_vel: 0.402096
+ turn around triggered! cur_vel: 0.402096
+ turn around triggered! cur_vel: 0.402096
+no need to turn around! cur_vel: 0.170529
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  7.62537 -3.42023  2.55395 0.397023 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:     0.49771 -0.00101491
+search time: 1.76723 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526935.759927912]: begin to run minco
+s: 1
+corridor time: 8.07334 ms
+try to optimize!
+begin to optimize!
+iter=61,time(ms)=5.949,total_t(ms)=5.952,cost=1317.212
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 6.25662
+pieceNum: 6
+optimized total duration: 6.5597
+optimized jerk cost: 1.24899
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 0.0999914
+time in iterating the map: 0.00335091
+time in building kdtree: 0.0010776
+time in searching in kdtree: 0.000628416
+raycast: 0.00580992 ms Time cost in extraction:    0.00568573
+no need to turn around! cur_vel: 0.0999914
+no need to turn around! cur_vel: 0.0999914
+no need to turn around! cur_vel: 0.0999914
+no need to turn around! cur_vel: 0.100326
+no need to turn around! cur_vel: 0.100326
+no need to turn around! cur_vel: 0.100326
+no need to turn around! cur_vel: 0.100326
+no need to turn around! cur_vel: 0.162334
+no need to turn around! cur_vel: 0.166495
+no need to turn around! cur_vel: 0.166495
+no need to turn around! cur_vel: 0.166495
+no need to turn around! cur_vel: 0.166495
+no need to turn around! cur_vel: 0.135263
+no need to turn around! cur_vel: 0.135263
+no need to turn around! cur_vel: 0.135263
+no need to turn around! cur_vel: 0.135263
+no need to turn around! cur_vel: 0.16292
+time in iterating the map: 0.00294739
+time in building kdtree: 0.00112006
+time in searching in kdtree: 0.000751072
+raycast: 0.00456448 ms Time cost in extraction:    0.00546938
+no need to turn around! cur_vel: 0.16292
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  7.51391 -3.34598  2.55397  0.52059 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:    0.386485 0.000455413
+search time: 3.39638 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526936.052184648]: begin to run minco
+s: 1
+corridor time: 8.14582 ms
+try to optimize!
+begin to optimize!
+iter=76,time(ms)=7.382,total_t(ms)=7.385,cost=1376.006
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 6.11256
+pieceNum: 6
+optimized total duration: 6.41749
+optimized jerk cost: 1.10665
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 0.153148
+no need to turn around! cur_vel: 0.153148
+no need to turn around! cur_vel: 0.106573
+no need to turn around! cur_vel: 0.106573
+no need to turn around! cur_vel: 0.106573
+no need to turn around! cur_vel: 0.110651
+no need to turn around! cur_vel: 0.110651
+no need to turn around! cur_vel: 0.110651
+time in iterating the map: 0.00258915
+time in building kdtree: 0.00108422
+time in searching in kdtree: 0.000640704
+raycast: 0.00515846 ms Time cost in extraction:    0.00503699
+no need to turn around! cur_vel: 0.161529
+no need to turn around! cur_vel: 0.161529
+no need to turn around! cur_vel: 0.161529
+no need to turn around! cur_vel: 0.161529
+no need to turn around! cur_vel: 0.151661
+no need to turn around! cur_vel: 0.151661
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  7.37894 -3.25614  2.55464  0.64763 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:    0.49628 0.00210681
+search time: 3.24864 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526936.335760072]: begin to run minco
+s: 1
+corridor time: 24.9246 ms
+try to optimize!
+begin to optimize!
+iter=25,time(ms)=2.232,total_t(ms)=2.235,cost=1566.286
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.9934
+pieceNum: 6
+optimized total duration: 6.30079
+optimized jerk cost: 1.29161
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 0.172525
+no need to turn around! cur_vel: 0.181498
+no need to turn around! cur_vel: 0.197524
+time in iterating the map: 0.0026433
+time in building kdtree: 0.00183424
+time in searching in kdtree: 0.000705664
+raycast: 0.00470006 ms Time cost in extraction:    0.00586912
+no need to turn around! cur_vel: 0.197524
+no need to turn around! cur_vel: 0.197524
+no need to turn around! cur_vel: 0.207918
+no need to turn around! cur_vel: 0.207918
+no need to turn around! cur_vel: 0.207918
+no need to turn around! cur_vel: 0.207918
+no need to turn around! cur_vel: 0.207918
+no need to turn around! cur_vel: 0.194983
+no need to turn around! cur_vel: 0.194983
+no need to turn around! cur_vel: 0.194983
+no need to turn around! cur_vel: 0.194983
+no need to turn around! cur_vel: 0.248477
+no need to turn around! cur_vel: 0.248477
+no need to turn around! cur_vel: 0.248477
+no need to turn around! cur_vel: 0.248477
+no need to turn around! cur_vel: 0.230659
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  7.21551 -3.14744  2.55461 0.754873 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:    0.309219 -0.00134865
+search time: 1.78253 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526936.607154152]: begin to run minco
+s: 1
+corridor time: 9.10608 ms
+try to optimize!
+begin to optimize!
+iter=25,time(ms)=2.735,total_t(ms)=2.738,cost=1343.711
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.91565
+pieceNum: 6
+optimized total duration: 6.20829
+optimized jerk cost: 1.05747
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00269338
+time in building kdtree: 0.00125178
+time in searching in kdtree: 0.00245056
+raycast: 0.00575318 ms Time cost in extraction:    0.00725046
+no need to turn around! cur_vel: 0.458571
+no need to turn around! cur_vel: 0.43039
+no need to turn around! cur_vel: 0.43039
+no need to turn around! cur_vel: 0.43039
+no need to turn around! cur_vel: 0.43039
+no need to turn around! cur_vel: 0.625461
+no need to turn around! cur_vel: 0.625461
+no need to turn around! cur_vel: 0.625461
+no need to turn around! cur_vel: 0.625461
+no need to turn around! cur_vel: 0.625461
+no need to turn around! cur_vel: 0.571597
+no need to turn around! cur_vel: 0.571597
+no need to turn around! cur_vel: 0.571597
+no need to turn around! cur_vel: 0.571597
+time in iterating the map: 0.00279773
+time in building kdtree: 0.00114573
+time in searching in kdtree: 0.000330752
+raycast: 0.00629398 ms Time cost in extraction:    0.00489914
+no need to turn around! cur_vel: 0.714225
+no need to turn around! cur_vel: 0.714225
+no need to turn around! cur_vel: 0.714225
+no need to turn around! cur_vel: 0.714225
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  7.03611 -3.02809  2.55457 0.831941 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:     0.26823 0.000544894
+search time: 2.6089 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526936.879709960]: begin to run minco
+s: 1
+corridor time: 7.76781 ms
+try to optimize!
+begin to optimize!
+iter=51,time(ms)=6.819,total_t(ms)=6.822,cost=1223.107
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.87269
+pieceNum: 6
+optimized total duration: 6.10733
+optimized jerk cost: 0.892907
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+------------------------run once-----------------------------
+[ INFO] [1697526936.940295208]: [Ftr_Server] State: APPROACH
+[ INFO] [1697526936.941127336]: Approach...
+Dis to Aim: 7.0201
+[ INFO] [1697526936.941230216]:  ALL Done - 0.122547 ms
+no need to turn around! cur_vel: 0.809866
+no need to turn around! cur_vel: 0.914895
+no need to turn around! cur_vel: 0.914895
+no need to turn around! cur_vel: 0.914895
+no need to turn around! cur_vel: 0.914895
+no need to turn around! cur_vel: 0.830662
+no need to turn around! cur_vel: 0.792483
+no need to turn around! cur_vel: 0.792483
+no need to turn around! cur_vel: 0.792483
+no need to turn around! cur_vel: 0.792483
+time in iterating the map: 0.00264038
+time in building kdtree: 0.00108835
+time in searching in kdtree: 0.000685312
+raycast: 0.00434435 ms Time cost in extraction:    0.00530173
+no need to turn around! cur_vel: 0.5614
+no need to turn around! cur_vel: 0.5614
+no need to turn around! cur_vel: 0.5614
+no need to turn around! cur_vel: 0.5614
+no need to turn around! cur_vel: 0.626069
+no need to turn around! cur_vel: 0.626069
+no need to turn around! cur_vel: 0.626069
+no need to turn around! cur_vel: 0.626069
+no need to turn around! cur_vel: 0.74817
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+[ INFO] [1697526937.146019240]: FreeSapce&Frontier Start 
+[ INFO] [1697526937.146495848]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526937.146559048]: floor_thr: 0.449951, roof_thr: 1.4
+[ INFO] [1697526937.146621064]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526937.146674024]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526937.146846248]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526937.146874184]: floor_thr: 0.449951, roof_thr: 1.4
+[ INFO] [1697526937.146911496]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526937.146949448]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526937.147061960]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526937.147098952]: floor_thr: 0.449951, roof_thr: 1.4
+[ INFO] [1697526937.147135080]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526937.147169032]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ WARN] [1697526937.148934536]: v5: 0
+addSuperPoint
+[ WARN] [1697526937.149055944]: frontier_cluster_list size: 0
+[ WARN] [1697526937.149080776]: svp: 4
+start state:  6.83579 -2.89484  2.55462 0.917207 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:     0.327379 -6.74167e-05
+search time: 1.79072 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526937.153930536]: begin to run minco
+s: 1
+corridor time: 7.7465 ms
+try to optimize!
+begin to optimize!
+iter=58,time(ms)=5.057,total_t(ms)=5.058,cost=1212.075
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.83774
+pieceNum: 6
+optimized total duration: 6.05456
+optimized jerk cost: 0.823146
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 0.826296
+time in iterating the map: 0.0103455
+time in building kdtree: 0.00554202
+time in searching in kdtree: 0.0021296
+raycast: 0.00699629 ms Time cost in extraction:    0.0219968
+no need to turn around! cur_vel: 0.756838
+no need to turn around! cur_vel: 0.756838
+no need to turn around! cur_vel: 0.728391
+no need to turn around! cur_vel: 0.728391
+no need to turn around! cur_vel: 0.728391
+no need to turn around! cur_vel: 0.728391
+no need to turn around! cur_vel: 0.867135
+no need to turn around! cur_vel: 0.867135
+no need to turn around! cur_vel: 0.867135
+no need to turn around! cur_vel: 0.867135
+no need to turn around! cur_vel: 0.805026
+no need to turn around! cur_vel: 0.805026
+no need to turn around! cur_vel: 0.805026
+no need to turn around! cur_vel: 0.805026
+no need to turn around! cur_vel: 0.805026
+no need to turn around! cur_vel: 0.898594
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  6.61591 -2.74858  2.55461 0.994608 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:    0.235913 6.96743e-06
+search time: 1.79526 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526937.429672296]: begin to run minco
+s: 1
+corridor time: 9.5711 ms
+try to optimize!
+begin to optimize!
+iter=70,time(ms)=6.960,total_t(ms)=6.965,cost=1164.463
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.63564
+pieceNum: 6
+optimized total duration: 5.81718
+optimized jerk cost: 0.872699
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00394173
+time in building kdtree: 0.00172749
+time in searching in kdtree: 0.000781376
+raycast: 0.0048696 ms Time cost in extraction:    0.00815504
+no need to turn around! cur_vel: 0.89355
+no need to turn around! cur_vel: 0.853443
+no need to turn around! cur_vel: 0.853443
+no need to turn around! cur_vel: 0.853443
+no need to turn around! cur_vel: 0.939066
+no need to turn around! cur_vel: 0.939066
+no need to turn around! cur_vel: 0.939066
+no need to turn around! cur_vel: 0.939066
+[ INFO] [1697526937.596428424]: [Ftr_Server] Time to Replan!
+[Frtr_Server] from APPROACH to CLASSIC
+[ INFO] [1697526937.596548808]:  ALL Done - 0.157118 ms
+no need to turn around! cur_vel: 1.11146
+no need to turn around! cur_vel: 1.11146
+no need to turn around! cur_vel: 1.11146
+no need to turn around! cur_vel: 1.11146
+time in iterating the map: 0.00333824
+time in building kdtree: 0.00164422
+time in searching in kdtree: 0.000401408
+raycast: 0.0054745 ms Time cost in extraction:    0.00628592
+no need to turn around! cur_vel: 1.06261
+------------------------run once-----------------------------
+[ INFO] [1697526937.646532360]: [Ftr_Server] State: CLASSIC
+[ INFO] [1697526937.649222152]: Classic Mode Active!
+vmax: 1.1
+res_aimpos:  1.84017 0.590143 0.948763
+res_aimvel:     -1.1 0.595257  0.10834
+classic find:  1.84017 0.590143 0.948763
+pub local aim:  5.84704 -1.81992 0.235661
+[Frtr_Server] from CLASSIC to APPROACH
+[Tank Planner] Triggered aim mode!
+[ WARN] [1697526937.652757512]: MSG to TF: Quaternion Not Properly Normalized
+[Tank Planner] end_pt:  5.84704 -1.81992      nan     0.01
+no need to turn around! cur_vel: 1.06261
+no need to turn around! cur_vel: 1.06261
+no need to turn around! cur_vel: 1.06261
+no need to turn around! cur_vel: 1.0523
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  6.38561 -2.59538  2.55461  1.04339 end_state:  5.84704 -1.81992      nan     0.01
+init ctrl:     0.134145 -7.64777e-07
+search time: 0.40256 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526937.700111720]: begin to run minco
+s: 1
+corridor time: 10.8827 ms
+try to optimize!
+begin to optimize!
+iter=37,time(ms)=3.043,total_t(ms)=3.044,cost=4275.079
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 1.78033
+pieceNum: 2
+optimized total duration: 1.75673
+optimized jerk cost: 11.9285
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 1.15364
+no need to turn around! cur_vel: 1.15364
+no need to turn around! cur_vel: 1.15364
+no need to turn around! cur_vel: 1.17339
+time in iterating the map: 0.00256234
+time in building kdtree: 0.0011319
+time in searching in kdtree: 0.000274848
+raycast: 0.0120374 ms Time cost in extraction:    0.00460154
+no need to turn around! cur_vel: 1.17339
+no need to turn around! cur_vel: 1.17339
+no need to turn around! cur_vel: 1.21176
+no need to turn around! cur_vel: 1.21176
+no need to turn around! cur_vel: 1.21176
+no need to turn around! cur_vel: 1.21176
+no need to turn around! cur_vel: 1.21176
+no need to turn around! cur_vel: 1.24659
+no need to turn around! cur_vel: 1.24659
+no need to turn around! cur_vel: 1.24659
+no need to turn around! cur_vel: 1.24659
+no need to turn around! cur_vel: 1.20784
+no need to turn around! cur_vel: 1.20784
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  6.16337 -2.43272  2.41994 0.879909 end_state:  5.84704 -1.81992      nan     0.01
+init ctrl: -0.989526 -0.894548
+search time: 0.32144 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526937.978008840]: begin to run minco
+s: 1
+corridor time: 3.91955 ms
+try to optimize!
+begin to optimize!
+iter=32,time(ms)=2.119,total_t(ms)=2.120,cost=2257.614
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 1.53593
+pieceNum: 2
+optimized total duration: 1.53197
+optimized jerk cost: 4.4233
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00284806
+time in building kdtree: 0.00132522
+time in searching in kdtree: 0.000254976
+raycast: 0.00397814 ms Time cost in extraction:    0.00521126
+no need to turn around! cur_vel: 1.16975
+no need to turn around! cur_vel: 1.16975
+no need to turn around! cur_vel: 1.16975
+no need to turn around! cur_vel: 1.16975
+no need to turn around! cur_vel: 1.22102
+no need to turn around! cur_vel: 1.22102
+no need to turn around! cur_vel: 1.22102
+no need to turn around! cur_vel: 1.22102
+no need to turn around! cur_vel: 1.09276
+no need to turn around! cur_vel: 1.09276
+no need to turn around! cur_vel: 1.09276
+no need to turn around! cur_vel: 1.09276
+no need to turn around! cur_vel: 1.1011
+no need to turn around! cur_vel: 1.08106
+[ INFO] [1697526938.195984872]: FreeSapce&Frontier Start 
+[ INFO] [1697526938.196133416]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526938.196199784]: floor_thr: 0.452471, roof_thr: 1.4
+[ INFO] [1697526938.196270440]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526938.196333352]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526938.196660168]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526938.196688296]: floor_thr: 0.452471, roof_thr: 1.4
+[ INFO] [1697526938.196743112]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526938.196799880]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526938.197013448]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526938.197040296]: floor_thr: 0.452471, roof_thr: 1.4
+[ INFO] [1697526938.197074216]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526938.197124616]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526938.198829416]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526938.198913768]: fc.viewpoints.size(): 1
+[ WARN] [1697526938.198951624]: v5: 2
+addSuperPoint
+[ WARN] [1697526938.199171240]: frontier_cluster_list size: 2
+[ WARN] [1697526938.199216776]: has viewp, pick it
+[ WARN] [1697526938.199245384]: now sp id: 47, keyinx before change: 26
+[ WARN] [1697526938.199266056]: isVisible? 1
+[ WARN] [1697526938.199298248]: has viewp, pick it
+[ WARN] [1697526938.199317608]: now sp id: 49, keyinx before change: 26
+[ WARN] [1697526938.199334152]: isVisible? 0
+[ WARN] [1697526938.199355176]: not visible
+[ WARN] [1697526938.199398152]: min dis: 0| ( 1.84017 0.590143 0.948763 ->  1.84017
+0.590143
+0.948763)
+[ WARN] [1697526938.199419400]: keyinx after change:25
+[ WARN] [1697526938.199437352]: svp: 4
+[ INFO] [1697526938.202332232]: [Ftr_Server] Ftr Change, Replan!
+[Frtr_Server] from APPROACH to CLASSIC
+[ INFO] [1697526938.202428008]:  ALL Done - 0.121832 ms
+no need to turn around! cur_vel: 1.08106
+no need to turn around! cur_vel: 1.08106
+no need to turn around! cur_vel: 1.08106
+time in iterating the map: 0.011842
+time in building kdtree: 0.00258573
+time in searching in kdtree: 0.00134995
+raycast: 0.00484387 ms Time cost in extraction:    0.0175101
+no need to turn around! cur_vel: 1.134
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+------------------------run once-----------------------------
+[ INFO] [1697526938.256940520]: [Ftr_Server] State: CLASSIC
+[ INFO] [1697526938.272522600]: Classic Mode Active!
+vmax: 1.1
+res_aimpos:  1.84017 0.590143 0.948763
+res_aimvel:     -1.1 0.474352 0.106993
+classic find:  1.84017 0.590143 0.948763
+pub local aim:  1.84017 0.590143 0.948763
+[Frtr_Server] from CLASSIC to APPROACH
+start state:  5.99759 -2.25805  2.19197 0.659234 end_state:  5.84704 -1.81992      nan     0.01
+init ctrl: -0.806881   -1.0583
+search time: 0.251744 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526938.287334728]: begin to run minco
+s: 1
+corridor time: 4.26128 ms
+try to optimize!
+begin to optimize!
+iter=53,time(ms)=2.594,total_t(ms)=2.596,cost=836.308
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 1.24552
+pieceNum: 2
+optimized total duration: 1.27999
+optimized jerk cost: 2.67798
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+[Tank Planner] Triggered aim mode!
+[ WARN] [1697526938.347349736]: MSG to TF: Quaternion Not Properly Normalized
+[Tank Planner] end_pt:  1.84017 0.590143      nan     0.01
+no need to turn around! cur_vel: 1.16472
+no need to turn around! cur_vel: 1.21519
+no need to turn around! cur_vel: 1.21519
+no need to turn around! cur_vel: 1.21519
+no need to turn around! cur_vel: 1.21519
+no need to turn around! cur_vel: 1.3474
+no need to turn around! cur_vel: 1.3474
+no need to turn around! cur_vel: 1.3474
+no need to turn around! cur_vel: 1.3474
+time in iterating the map: 0.00277395
+time in building kdtree: 0.00119056
+time in searching in kdtree: 0.000411328
+raycast: 0.00503488 ms Time cost in extraction:    0.0051568
+------------------------run once-----------------------------
+[ INFO] [1697526938.456438280]: [Ftr_Server] State: APPROACH
+[ INFO] [1697526938.457185768]: Approach...
+Dis to Aim: 6.46335
+[ INFO] [1697526938.457316712]:  ALL Done - 0.138998 ms
+no need to turn around! cur_vel: 1.34539
+no need to turn around! cur_vel: 1.34539
+no need to turn around! cur_vel: 1.34539
+no need to turn around! cur_vel: 1.34539
+no need to turn around! cur_vel: 1.41818
+no need to turn around! cur_vel: 1.41818
+no need to turn around! cur_vel: 1.41818
+no need to turn around! cur_vel: 1.41818
+no need to turn around! cur_vel: 1.40957
+no need to turn around! cur_vel: 1.40957
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.91629 -2.11853  1.96844 0.503226 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: -0.624018  -1.04829
+search time: 1.67133 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526938.564628360]: begin to run minco
+s: 1
+corridor time: 10.1056 ms
+try to optimize!
+begin to optimize!
+iter=77,time(ms)=6.599,total_t(ms)=6.600,cost=1778.342
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.76628
+pieceNum: 6
+optimized total duration: 7.44527
+optimized jerk cost: 4.04663
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00260138
+time in building kdtree: 0.00116579
+time in searching in kdtree: 0.000465696
+raycast: 0.00482502 ms Time cost in extraction:    0.00492794
+no need to turn around! cur_vel: 1.35702
+no need to turn around! cur_vel: 1.35702
+no need to turn around! cur_vel: 1.35702
+no need to turn around! cur_vel: 1.26796
+no need to turn around! cur_vel: 1.26796
+no need to turn around! cur_vel: 1.26796
+no need to turn around! cur_vel: 1.26796
+no need to turn around! cur_vel: 1.1218
+no need to turn around! cur_vel: 1.1218
+no need to turn around! cur_vel: 1.1218
+no need to turn around! cur_vel: 1.1218
+no need to turn around! cur_vel: 1.1218
+no need to turn around! cur_vel: 1.08946
+no need to turn around! cur_vel: 1.08946
+no need to turn around! cur_vel: 1.08946
+no need to turn around! cur_vel: 1.08946
+no need to turn around! cur_vel: 1.16372
+no need to turn around! cur_vel: 1.16372
+no need to turn around! cur_vel: 1.16372
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.87243 -1.99856  1.91127 0.431786 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: -0.167953  0.203187
+search time: 1.62554 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526938.840625480]: begin to run minco
+s: 1
+corridor time: 10.7465 ms
+try to optimize!
+begin to optimize!
+iter=288,time(ms)=40.527,total_t(ms)=40.528,cost=1397.513
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.84815
+pieceNum: 6
+optimized total duration: 6.46948
+optimized jerk cost: 1.78764
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00295091
+time in building kdtree: 0.00118502
+time in searching in kdtree: 0.000550048
+raycast: 0.00508413 ms Time cost in extraction:    0.00560186
+no need to turn around! cur_vel: 1.1641
+no need to turn around! cur_vel: 1.1641
+no need to turn around! cur_vel: 1.1641
+no need to turn around! cur_vel: 1.20297
+no need to turn around! cur_vel: 1.20297
+no need to turn around! cur_vel: 1.20297
+no need to turn around! cur_vel: 1.20297
+no need to turn around! cur_vel: 1.19186
+no need to turn around! cur_vel: 1.19186
+no need to turn around! cur_vel: 1.19186
+no need to turn around! cur_vel: 1.19186
+no need to turn around! cur_vel: 1.19186
+time in iterating the map: 0.0031016
+time in building kdtree: 0.00123856
+time in searching in kdtree: 0.000355584
+raycast: 0.00596115 ms Time cost in extraction:    0.00536083
+no need to turn around! cur_vel: 1.25398
+[ INFO] [1697526939.045924424]: FreeSapce&Frontier Start 
+[ INFO] [1697526939.046079208]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526939.046124584]: floor_thr: 0.414675, roof_thr: 1.4
+[ INFO] [1697526939.046178344]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.046725640]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.047465064]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526939.047670792]: floor_thr: 0.414675, roof_thr: 1.4
+[ INFO] [1697526939.048038760]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.048449896]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.049163112]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526939.051861160]: floor_thr: 0.414675, roof_thr: 1.4
+[ INFO] [1697526939.053819752]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.055078120]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526939.058181224]: fc.viewpoints.size(): 1
+[ WARN] [1697526939.058418408]: v5: 1
+addSuperPoint
+[ WARN] [1697526939.060370088]: frontier_cluster_list size: 1
+[ WARN] [1697526939.060570312]: has viewp, pick it
+[ WARN] [1697526939.061121736]: now sp id: 49, keyinx before change: 27
+[ WARN] [1697526939.061422664]: isVisible? 1
+[ WARN] [1697526939.062082056]: svp: 4
+no need to turn around! cur_vel: 1.25398
+no need to turn around! cur_vel: 1.33141
+no need to turn around! cur_vel: 1.33141
+no need to turn around! cur_vel: 1.33141
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.82997 -1.89682  2.05122 0.385586 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: -0.126915  0.805944
+search time: 1.6151 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526939.111230504]: begin to run minco
+s: 1
+corridor time: 8.7728 ms
+try to optimize!
+begin to optimize!
+iter=75,time(ms)=6.763,total_t(ms)=6.765,cost=1569.234
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.72509
+pieceNum: 6
+optimized total duration: 7.24145
+optimized jerk cost: 2.35623
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 1.39986
+no need to turn around! cur_vel: 1.39986
+no need to turn around! cur_vel: 1.39986
+no need to turn around! cur_vel: 1.29924
+no need to turn around! cur_vel: 1.29924
+no need to turn around! cur_vel: 1.29924
+no need to turn around! cur_vel: 1.29924
+time in iterating the map: 0.00416918
+time in building kdtree: 0.00231632
+time in searching in kdtree: 0.000750656
+raycast: 0.00861264 ms Time cost in extraction:    0.0080289
+no need to turn around! cur_vel: 1.39505
+no need to turn around! cur_vel: 1.39505
+no need to turn around! cur_vel: 1.39505
+no need to turn around! cur_vel: 1.24364
+no need to turn around! cur_vel: 1.24364
+no need to turn around! cur_vel: 1.24364
+no need to turn around! cur_vel: 1.24364
+no need to turn around! cur_vel: 1.35606
+no need to turn around! cur_vel: 1.35606
+no need to turn around! cur_vel: 1.35606
+no need to turn around! cur_vel: 1.35606
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.77447 -1.80866  2.19056 0.368406 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: -0.00597014    0.278915
+search time: 2.97754 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526939.391192936]: begin to run minco
+s: 1
+corridor time: 10.7831 ms
+try to optimize!
+begin to optimize!
+iter=138,time(ms)=17.690,total_t(ms)=17.691,cost=1313.943
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.74831
+pieceNum: 6
+optimized total duration: 6.25792
+optimized jerk cost: 1.63659
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00268653
+time in building kdtree: 0.00268669
+time in searching in kdtree: 0.00208979
+raycast: 0.00749482 ms Time cost in extraction:    0.00906893
+no need to turn around! cur_vel: 1.46556
+no need to turn around! cur_vel: 1.34435
+no need to turn around! cur_vel: 1.34435
+no need to turn around! cur_vel: 1.34435
+no need to turn around! cur_vel: 1.34435
+no need to turn around! cur_vel: 1.34435
+no need to turn around! cur_vel: 1.43909
+no need to turn around! cur_vel: 1.43909
+no need to turn around! cur_vel: 1.43909
+no need to turn around! cur_vel: 1.43909
+no need to turn around! cur_vel: 1.44078
+no need to turn around! cur_vel: 1.44078
+no need to turn around! cur_vel: 1.44078
+no need to turn around! cur_vel: 1.44078
+no need to turn around! cur_vel: 1.48885
+no need to turn around! cur_vel: 1.49285
+time in iterating the map: 0.00269024
+time in building kdtree: 0.00154586
+time in searching in kdtree: 0.000572032
+raycast: 0.00763466 ms Time cost in extraction:    0.00566717
+no need to turn around! cur_vel: 1.49285
+no need to turn around! cur_vel: 1.49285
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   5.7082 -1.72639   2.3185 0.401962 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: 0.238862 0.559712
+search time: 1.73485 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526939.668998760]: begin to run minco
+s: 1
+corridor time: 8.00666 ms
+try to optimize!
+begin to optimize!
+iter=75,time(ms)=6.889,total_t(ms)=6.890,cost=1193.658
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.52219
+pieceNum: 6
+optimized total duration: 5.8331
+optimized jerk cost: 1.389
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+no need to turn around! cur_vel: 1.45025
+no need to turn around! cur_vel: 1.45025
+no need to turn around! cur_vel: 1.41547
+no need to turn around! cur_vel: 1.41547
+no need to turn around! cur_vel: 1.41547
+no need to turn around! cur_vel: 1.41547
+no need to turn around! cur_vel: 1.3844
+no need to turn around! cur_vel: 1.37378
+no need to turn around! cur_vel: 1.37378
+no need to turn around! cur_vel: 1.37378
+no need to turn around! cur_vel: 1.37378
+time in iterating the map: 0.00274262
+time in building kdtree: 0.00130154
+time in searching in kdtree: 0.000697184
+raycast: 0.011256 ms Time cost in extraction:    0.00542118
+no need to turn around! cur_vel: 1.41102
+no need to turn around! cur_vel: 1.41102
+no need to turn around! cur_vel: 1.41102
+[ INFO] [1697526939.895944360]: FreeSapce&Frontier Start 
+[ INFO] [1697526939.896076936]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526939.896119816]: floor_thr: 0.361112, roof_thr: 1.4
+[ INFO] [1697526939.896182408]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.896666824]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.897339368]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526939.897395560]: floor_thr: 0.361112, roof_thr: 1.4
+[ INFO] [1697526939.897451912]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.897826952]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.898171560]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526939.898226344]: floor_thr: 0.361112, roof_thr: 1.4
+[ INFO] [1697526939.898279368]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526939.898489224]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526939.900188008]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526939.900301704]: fc.viewpoints.size(): 1
+in sampleViewpoints
+[ WARN] [1697526939.900360328]: fc.viewpoints.size(): 1
+[ WARN] [1697526939.900394472]: v5: 3
+addSuperPoint
+[ WARN] [1697526939.900742408]: frontier_cluster_list size: 3
+[ WARN] [1697526939.900782408]: has viewp, pick it
+[ WARN] [1697526939.900962120]: now sp id: 49, keyinx before change: 27
+[ WARN] [1697526939.901002536]: isVisible? 0
+[ WARN] [1697526939.901069000]: not visible
+[ WARN] [1697526939.901128168]: min dis: 6.57504| (  7.2839 -3.08463 0.643982 ->  1.84017
+0.590143
+0.948763)
+[ WARN] [1697526939.901158344]: keyinx after change:27
+[ERROR] [1697526939.901218792]: svp ERROR!!!!!!!
+[ WARN] [1697526939.901247016]: has viewp, pick it
+[ WARN] [1697526939.901275720]: now sp id: 50, keyinx before change: 27
+[ WARN] [1697526939.901301992]: isVisible? 1
+[ WARN] [1697526939.901339240]: has viewp, pick it
+[ WARN] [1697526939.901363656]: now sp id: 51, keyinx before change: 27
+[ WARN] [1697526939.901386632]: isVisible? 1
+[ WARN] [1697526939.901428200]: svp: 4
+[ INFO] [1697526939.901926792]: [Ftr_Server] Ftr Change, Replan!
+[Frtr_Server] from APPROACH to CLASSIC
+[ INFO] [1697526939.901985800]:  ALL Done - 0.066519 ms
+no need to turn around! cur_vel: 1.42066
+no need to turn around! cur_vel: 1.42066
+no need to turn around! cur_vel: 1.42066
+no need to turn around! cur_vel: 1.42066
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   5.6156 -1.63952  2.44425 0.482398 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: 0.324104 0.353522
+search time: 2.59885 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526939.958690888]: begin to run minco
+s: 1
+corridor time: 8.97558 ms
+try to optimize!
+begin to optimize!
+iter=115,time(ms)=14.170,total_t(ms)=14.171,cost=1247.343
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.42587
+pieceNum: 5
+optimized total duration: 5.8009
+optimized jerk cost: 1.3327
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+------------------------run once-----------------------------
+[ INFO] [1697526940.016571080]: [Ftr_Server] State: CLASSIC
+[ INFO] [1697526940.019270952]: Classic Mode Active!
+vmax: 1.1
+res_aimpos:  1.84017 0.590143 0.948763
+res_aimvel:     -1.1 0.163101 0.148807
+classic find:  1.84017 0.590143 0.948763
+pub local aim:  1.84017 0.590143 0.948763
+[Frtr_Server] from CLASSIC to APPROACH
+[ INFO] [1697526940.019842664]:  ALL Done - 0.605345 ms
+[Tank Planner] Triggered aim mode!
+[ WARN] [1697526940.020184328]: MSG to TF: Quaternion Not Properly Normalized
+[Tank Planner] end_pt:  1.84017 0.590143      nan     0.01
+no need to turn around! cur_vel: 1.32423
+no need to turn around! cur_vel: 1.36485
+no need to turn around! cur_vel: 1.37385
+time in iterating the map: 0.00404442
+time in building kdtree: 0.00202947
+time in searching in kdtree: 0.00173405
+raycast: 0.0154122 ms Time cost in extraction:    0.00871101
+no need to turn around! cur_vel: 1.37385
+no need to turn around! cur_vel: 1.37385
+no need to turn around! cur_vel: 1.33753
+no need to turn around! cur_vel: 1.33753
+no need to turn around! cur_vel: 1.33753
+no need to turn around! cur_vel: 1.33753
+no need to turn around! cur_vel: 1.30732
+no need to turn around! cur_vel: 1.30732
+no need to turn around! cur_vel: 1.30732
+no need to turn around! cur_vel: 1.30732
+no need to turn around! cur_vel: 1.44845
+no need to turn around! cur_vel: 1.44845
+no need to turn around! cur_vel: 1.44845
+no need to turn around! cur_vel: 1.44845
+no need to turn around! cur_vel: 1.44845
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:   5.4982 -1.55288  2.56696 0.588855 end_state:  1.84017 0.590143      nan     0.01
+init ctrl: 0.436448 0.448665
+search time: 1.4175 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526940.230706920]: begin to run minco
+s: 1
+corridor time: 7.53578 ms
+try to optimize!
+begin to optimize!
+iter=83,time(ms)=7.772,total_t(ms)=7.773,cost=1258.036
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 5.13556
+pieceNum: 5
+optimized total duration: 6.17666
+optimized jerk cost: 3.23231
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.00275667
+time in building kdtree: 0.00132646
+time in searching in kdtree: 0.000632896
+raycast: 0.0137304 ms Time cost in extraction:    0.00538886
+no need to turn around! cur_vel: 1.49055
+no need to turn around! cur_vel: 1.49055
+no need to turn around! cur_vel: 1.52306
+no need to turn around! cur_vel: 1.52306
+no need to turn around! cur_vel: 1.52306
+no need to turn around! cur_vel: 1.52306
+no need to turn around! cur_vel: 1.60078
+no need to turn around! cur_vel: 1.60078
+no need to turn around! cur_vel: 1.60078
+no need to turn around! cur_vel: 1.60078
+no need to turn around! cur_vel: 1.60078
+no need to turn around! cur_vel: 1.64933
+time in iterating the map: 0.00401939
+time in building kdtree: 0.00231478
+time in searching in kdtree: 0.00313002
+raycast: 0.0125382 ms Time cost in extraction:    0.0102719
+no need to turn around! cur_vel: 1.64933
+no need to turn around! cur_vel: 1.71608
+no need to turn around! cur_vel: 1.71941
+no need to turn around! cur_vel: 1.71941
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.34578 -1.46132  2.61325 0.640749 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:   0.024688 -0.0154767
+search time: 12.725 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526940.527741256]: begin to run minco
+s: 1
+corridor time: 9.18099 ms
+try to optimize!
+begin to optimize!
+iter=62,time(ms)=4.682,total_t(ms)=4.683,cost=1037.085
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 4.90819
+pieceNum: 5
+optimized total duration: 5.17541
+optimized jerk cost: 1.76983
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+[ INFO] [1697526940.574587144]: FreeSapce&Frontier Start 
+[ INFO] [1697526940.574855976]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526940.574990664]: floor_thr: 0.345521, roof_thr: 1.4
+[ INFO] [1697526940.575157864]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526940.575216680]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526940.575705288]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526940.575899272]: floor_thr: 0.345521, roof_thr: 1.4
+[ INFO] [1697526940.576074024]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526940.576127848]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526940.576431048]: frontier_floor: 0.1, frontier_roof: 1.8
+[ INFO] [1697526940.576584072]: floor_thr: 0.345521, roof_thr: 1.4
+[ INFO] [1697526940.576635240]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+[ INFO] [1697526940.576867176]: getMinBound: -12 -10   0, getMaxBound:  12  10 1.6
+in sampleViewpoints
+[ WARN] [1697526940.578599112]: fc.viewpoints.size(): 1
+[ WARN] [1697526940.578748552]: v5: 1
+addSuperPoint
+[ WARN] [1697526940.579128776]: frontier_cluster_list size: 1
+[ WARN] [1697526940.579266664]: has viewp, pick it
+[ WARN] [1697526940.579329096]: now sp id: 51, keyinx before change: 27
+[ WARN] [1697526940.579370632]: isVisible? 1
+[ WARN] [1697526940.579605960]: svp: 4
+no need to turn around! cur_vel: 1.78459
+no need to turn around! cur_vel: 1.78459
+no need to turn around! cur_vel: 1.78459
+no need to turn around! cur_vel: 1.828
+no need to turn around! cur_vel: 1.828
+no need to turn around! cur_vel: 1.828
+no need to turn around! cur_vel: 1.828
+time in iterating the map: 0.00273962
+time in building kdtree: 0.00173203
+time in searching in kdtree: 0.000783872
+raycast: 0.00817709 ms Time cost in extraction:    0.00612502
+no need to turn around! cur_vel: 1.83771
+no need to turn around! cur_vel: 1.84183
+no need to turn around! cur_vel: 1.84183
+no need to turn around! cur_vel: 1.86958
+no need to turn around! cur_vel: 1.87729
+no need to turn around! cur_vel: 1.87729
+no need to turn around! cur_vel: 1.87729
+no need to turn around! cur_vel: 1.87729
+no need to turn around! cur_vel: 1.91135
+no need to turn around! cur_vel: 1.91135
+no need to turn around! cur_vel: 1.91135
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+start state:  5.18891 -1.36952   2.6118 0.715398 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:   0.445016 0.00184358
+search time: 1.29075 ms
+[kino replan]: kinodynamic search success.
+[ WARN] [1697526940.787324232]: begin to run minco
+s: 1
+corridor time: 10.419 ms
+try to optimize!
+begin to optimize!
+iter=74,time(ms)=9.447,total_t(ms)=9.449,cost=969.305
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 4.66911
+pieceNum: 5
+optimized total duration: 4.83709
+optimized jerk cost: 1.15121
+[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+time in iterating the map: 0.0027504
+time in building kdtree: 0.00151027
+time in searching in kdtree: 0.000609056
+raycast: 0.00817299 ms Time cost in extraction:    0.00578835
+no need to turn around! cur_vel: 1.92884
+no need to turn around! cur_vel: 1.96664
+no need to turn around! cur_vel: 1.95562
+no need to turn around! cur_vel: 1.95562
+no need to turn around! cur_vel: 1.95562
+no need to turn around! cur_vel: 1.95562
+no need to turn around! cur_vel: 1.93477
+no need to turn around! cur_vel: 1.93477
+no need to turn around! cur_vel: 1.93477
+no need to turn around! cur_vel: 1.93477
+no need to turn around! cur_vel: 1.96728
+no need to turn around! cur_vel: 1.96728
+no need to turn around! cur_vel: 1.96728
+no need to turn around! cur_vel: 1.96728
+no need to turn around! cur_vel: 1.92245
+no need to turn around! cur_vel: 1.89273
+no need to turn around! cur_vel: 1.89273
+^Cno need to turn around! cur_vel: 1.89273
+[FSM]: from EXEC_TRAJ to REPLAN_TRAJ
+[car_0_planner_node-6] killing on exit
+[drone_0_mapping_unity_reload-4] killing on exit
+[drone_0_mapping-3] killing on exit
+[drone_0_mapping_vis-5] killing on exit
+[ INFO] [1697526941.068507816]: Unloading nodelet /drone_0_mapping from manager drone_0_manager
+[ekf-3] killing on exit
+time in iterating the map: 0.00318019
+time in building kdtree: 0.0047159
+time in searching in kdtree: 0.00124704
+raycast: 0.00881658 ms Time cost in extraction:    0.0098295
+start state:  4.99147 -1.25392  2.61193 0.857287 end_state:  1.84017 0.590143      nan     0.01
+init ctrl:      0.48426 -0.000336949
+[drone_0_manager-2] killing on exit
+search time: 1.45293 ms
+[kino replan]: kinodynamic search success.
+s: 1
+[mpc_controller_node-1] killing on exit
+Solver interrupted
+[livox_lidar_publisher2-2] killing on exit
+[laserMapping-1] killing on exit
+[ WARN] [1697526941.087568552]: catch sig 2
+current scan saved to /PCD/scans.pcd
+corridor time: 12.3473 ms
+try to optimize!
+begin to optimize!
+iter=53,time(ms)=3.655,total_t(ms)=3.657,cost=937.492
+optimize ended!
+[PolyTrajManager] Planning success ! 
+init duration: 4.40637
+pieceNum: 4
+optimized total duration: 4.6826
+optimized jerk cost: 0.869211
+[tank_0-1] killing on exit
+^C^C[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+terminate called without an active exception
+^Cdouble free or corruption (out)
+Rebuild thread terminated normally
+^Cshutting down processing monitor...
+... shutting down processing monitor complete
+done
+^C^C^C^C^Cshutting down processing monitor...
+... shutting down processing monitor complete
+done
+^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C[mpc_controller_node-1] escalating to SIGTERM
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ 
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ script -f log.txt
+脚本已启动，文件为 log.txt
+$ [/home/xiaobin/tank_exploration] git:(master) ✗ >....          
+optimized total duration: 4.6826     
+optimized jerk cost: 0.869211   
+[tank_0-1] killing on exit   
+^C^C[FSM]: from REPLAN_TRAJ to EXEC_TRAJ
+terminate called without an active exception
+^Cdouble free or corruption (out)           
+Rebuild thread terminated normally      
+^Cshutting down processing monitor...       
+... shutting down processing monitor complete
+done                                         
+^C^C^C^C^Cshutting down processing monitor...
+... shutting down processing monitor complete
+done                                         
+^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C^C[mpc_controller_node-1] escalating to SIGTERM
+shutting down processing monitor...
+... shutting down processing monitor complete
+done                                         
 
