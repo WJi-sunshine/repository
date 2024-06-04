@@ -1,0 +1,37 @@
+rosbag record --tcpnodelay \
+/tank_0/cmd \
+/track_err \
+/reference_path \
+/predict_path \
+/following_path \
+/vrpn_client_node/fy_car/pose \
+/tank_0/feed_back \
+/ekf/ekf_odom \
+/drone_0_mapping/vs_gridmap \
+/car_0_planner_node/AAA \
+/drone_0_/star_cvx/polyhedron_edge \
+/star_cvx/Frontier/polyhedron_plane \
+/drone_0_frontier_cluster \
+/car_0_planner_node/fc_normal \
+/car_0_planner_node/fc_normal_nd \
+/car_0_planner_node/viewpoints \
+/car_0_planner_node/viewpoints_line \
+/car_0_planner_node/svp \
+/car_0_planner_node/belong_keypose \
+/car_0_planner_node/keyposes \
+/car_0_planner_node/keyedges \
+/drone_0_next_aim \
+/global_svp_center \
+/drone_0_mapping/global_pcl \
+/car_0_planner_node/car_kino_trajs \
+/car_0_planner_node/car_polyhedrons \
+/car_0_planner_node/vis/car_minco_traj \
+/car_0_planner_node/vis/car_wholebodyTraj \
+/tf \
+/cloud_registered \
+/mapping/global_view_cloud_2d \
+/mapping/global_view_cloud_3d \
+/Odometry \
+/livox/imu \
+/ASampleV \
+/run_dist_now
